@@ -1,3 +1,9 @@
+.fondo_cart{
+  background-color: aliceblue;
+}
+.my__swiper{
+width: 60%;
+}
 .cart__carta {
   border-color: 5px solid black;
   height: 10%;
@@ -9,12 +15,12 @@
   width: 90%;
   margin-right: 50px;
   margin-top: 15px;
-  margin-bottom: 15px;
+
 }
 .cart__viwer img {
-  width: 40%;
+  width: 50%;
   height: auto;
-  margin-top: 5px;
+  margin-top: 0px;
 }
 .cart__viwer a {
   margin-top: 5px;
@@ -24,13 +30,12 @@
 .cart__viwer:hover {
   transform: scale(1.08);
   color: #000000;
-
   transition: 1s;
 }
 
 @media screen and (max-width: 720px) {
-  .cart__viwer img {
-    width: 50%;
+  .cart__vi4wer img {
+    width: 40%;
     height: auto;
     margin-top: 5px;
   }

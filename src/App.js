@@ -1,19 +1,24 @@
-import { Cine } from "./components/Cine/Cine";
-
-import { Footer } from "./components/Footer/Footer";
-import { Cartillas } from "./components/Cartillas/Cartillas";
-import { Eventos } from "./components/Eventos/Eventos";
 import "./App.css";
+import Home from "./pages/Home";
+import Login from "./pages/Login";
+import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
+
 
 function App() {
   return (
-    <div>
-      <Cartillas />
-      <Eventos />
-      <Cine />
-   
-      <Footer />
-    </div>
+    <>
+      <Router>
+        <Routes>
+          <Route path="/login" element={<Login />} />
+
+          <Route path="/Home" element={<Home />} />
+
+
+        </Routes>
+      </Router>
+
+
+    </>
   );
 }
 
