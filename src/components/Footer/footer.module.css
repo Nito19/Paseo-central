@@ -1,7 +1,7 @@
 footer {
   width: 100%;
   padding: 50px 0px;
-  background-image: url(../Footer/img/footer.svg);
+  background-color: #e94b4b;
   background-size: cover;
 }
 
@@ -29,31 +29,29 @@ footer {
   max-width: 350px;
   margin-top: 20px;
   font-weight: 500;
-  color: #000000;
+  color: #ffffff;
   font-size: 20px;
 }
 
 .box__footer h2 {
   margin-bottom: 30px;
-  color: #000000;
+  color: #f7f7f7;
   font-weight: 700;
 }
 
 .box__footer a {
   margin-top: 10px;
-  color: #000000;
+  color: #ffffff;
   font-weight: 500;
   font-size: 20px;
   text-align: left;
-  text-decoration: none
+  text-decoration: none;
 }
 
 .box__footer a:hover {
   opacity: 0.8;
-  color: rgb(255, 255, 255);
+  color: rgb(0, 0, 0);
 }
-
-
 
 .box__copyright {
   max-width: 1200px;
@@ -64,7 +62,7 @@ footer {
 
 .box__copyright p {
   margin-top: 20px;
-  color: #000000;
+  color: #fffdfd;
 }
 
 .box__copyright hr {
@@ -74,15 +72,15 @@ footer {
 }
 
 @media screen and (max-width: 720px) {
-.box__footer a {
+  .box__footer a {
     margin-top: 0px;
     color: #000000;
     font-weight: 500;
     font-size: 20px;
     text-align: left;
-    text-decoration: none
-}
-.box__footer{
+    text-decoration: none;
+  }
+  .box__footer {
     padding: 10px;
-}
+  }
 }

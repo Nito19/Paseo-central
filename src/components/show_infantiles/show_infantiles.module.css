@@ -1,0 +1,49 @@
+.shos_css h1 {
+  padding-left: 10%;
+  font-size: 60px;
+  text-align: center;
+}
+.shos_css h4 {
+  padding-left: 5%;
+  font-size: 25px;
+}
+.fila_container {
+  padding-top: 5%;
+}
+.fila_container img {
+  width: 50%;
+  height: auto;
+  border-radius: 20px;
+  image-rendering: auto;
+
+}
+.img2{
+
+  
+}
+.fila_container a {
+  border: 3px solid rgb(8, 8, 8);
+  border-radius: 15px;
+  padding: 2%;
+  text-decoration: none;
+  font-size: 20px;
+  color: black;
+}
+.container_cocierto {
+  padding: 7% 0% 0% 10%;
+}
+.conciertos_text {
+  width: 600px;
+  height: 250px;
+  margin: 10px;
+  padding: 20px;
+}
+.conciertos_text h2 {
+  font-size: 40px;
+}
+
+.conciertos_text p {
+  font-size: 20px;
+  padding-bottom: 3%;
+  color: #32b0c8;
+}

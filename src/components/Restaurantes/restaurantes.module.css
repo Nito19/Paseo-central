@@ -1,0 +1,73 @@
+.img_ce img {
+  width: 65%;
+  margin-top: -20%;
+  height: auto;
+  border-radius: 20px;
+  position: relative;
+  filter: drop-shadow(0 2px 5px rgba(0, 0, 0, 0.7));
+}
+.img_re {
+  background-image: url(./imgs_restaurante/img5.jpg);
+  padding: 33%;
+  width: 100%;
+  border-radius: 20px 20px 0px 0px;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.cards_resta {
+  width: 100%;
+  height: auto;
+  border-radius: 20px;
+}
+.cards_textr {
+  text-align: center;
+  font-size: 16px;
+}
+.my_swiperf {
+  width: 90%;
+}
+.card_body {
+  padding: 4%;
+  text-align: center;
+  margin: 1% 0% 5% 0%;
+  
+}
+.card_body h3 {
+  margin: 10px 0px 5px 0px;
+  text-align: center;
+}
+.card_body p {
+  margin: 10px 0px 25px 0px;
+  text-align: center;
+}
+.card_body a {
+  padding: 2% 6%;
+ 
+  color: black;
+  text-decoration: none;
+  border: 2px solid black;
+  border-radius: 10px;
+}
+.boton_info{
+ padding: 10px;
+}
+.boton_info a {
+  text-decoration: none;
+  border: 2px solid rgb(145, 124, 124);
+  padding: 1%;
+  border-radius: 10px;
+  margin: 30px 40% 50px 40%;
+  color: rgba(0, 0, 0, 0.76);
+}
+.cards_resta1 {
+  background-color: #f7f7f8;
+}
+.cards_resta1 h1{
+  text-align: center;
+  font-family: Harabara;
+  padding:  1.5% ;
+}
+.cards_resta {
+  background-color: white;
+}

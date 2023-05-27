@@ -17,11 +17,6 @@ export const Cine = () => {
         <div className={styles.fondo__cine}>
           <div className={styles.box__titel}>
             <h1>Peliculas de estreno</h1>
-            <div className="container ">
-              <div className="row justify-content-center">
-                <hr className={styles.cine__linea} />
-              </div>
-            </div>
           </div>
           <div className={styles.box__reco}>
             <div className="container-fluid  justify-content-center ">

@@ -1,0 +1,35 @@
+.container_conciertos img {
+  width: 40%;
+  height: auto;
+  text-align: center;
+  margin-left: 60%;
+  border-radius: 1%;
+}
+.container_conciertos h1 {
+  text-align: center;
+  font-family: Harabara;
+  letter-spacing: 0.1em;
+}
+
+.col_conciertos {
+  margin-top: 5%;
+  margin-bottom: 5%;
+  background-color: #2ace9b;
+  border-radius: 5px;
+}
+
+.col_conciertos i {
+  color: rgb(255, 255, 255);
+  margin: 15px;
+  font-size: 40px;
+}
+.col_conciertos h3 {
+  color: rgb(255, 255, 255);
+  text-align: center;
+  font-size: 25px;
+}
+.col_conciertos p {
+  color: rgb(255, 255, 255);
+  text-align: center;
+  font-size: 15px;
+}

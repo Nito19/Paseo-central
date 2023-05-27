@@ -1,0 +1,16 @@
+.contenedor_e h1 {
+  text-align: center;
+  font-family: Harabara;
+  padding: 20px;
+}
+.ef__slider img {
+  width: 100%;
+  height: auto;
+  border-radius: 2rem;
+  object-fit: cover;
+}
+
+.my_swiperf {
+  width: 90%;
+  height: auto;
+}

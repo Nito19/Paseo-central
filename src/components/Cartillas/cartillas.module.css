@@ -1,8 +1,6 @@
-.fondo_cart{
-  background-color: aliceblue;
-}
+
 .my__swiper{
-width: 60%;
+width: 50%;
 }
 .cart__carta {
   border-color: 5px solid black;
@@ -24,7 +22,7 @@ width: 60%;
 }
 .cart__viwer a {
   margin-top: 5px;
-  font-size: 1.4vw;
+  font-size: 1.3vw;
   height: auto;
 }
 .cart__viwer:hover {

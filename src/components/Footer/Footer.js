@@ -1,6 +1,6 @@
 import React from "react";
 import styles from "./footer.module.css";
-
+import logo2 from "./img/logo2.png"
 export const Footer = () => {
   return (
     <>
@@ -8,7 +8,7 @@ export const Footer = () => {
         <div className={styles.container__footer}>
           <div className={styles.box__footer}>
             <div className={styles.logo}>
-              <img src="https://cdn.discordapp.com/attachments/884663926648881183/1100291008043954196/logo1.png" alt="Locgo de paseo central" />
+              <img src={logo2} alt="Locgo de paseo central" />
               
             </div>
             <div className={styles.terms}>
